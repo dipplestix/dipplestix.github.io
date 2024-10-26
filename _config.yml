@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Chris Mascioli / Site Title"
 title_separator          : "-"
 name                     : &name "Chris Mascioli"
 description              : &description "personal description"
@@ -212,7 +212,7 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: false
+    output: true
     permalink: /:collection/:path/
   publications:
     output: true
@@ -246,14 +246,14 @@ defaults:
       layout: single
       author_profile: true
   # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+  # - scope:
+  #     path: ""
+  #     type: teaching
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comments: true
   # _publications
   - scope:
       path: ""
